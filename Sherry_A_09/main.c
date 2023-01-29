@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include"rechteck.h"
 
 int main() {
 
