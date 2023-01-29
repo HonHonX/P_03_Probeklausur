@@ -6,7 +6,7 @@ int main () {
 	int qmPreis=680;
 	int gesamtPreis=0;
 	
-	gesamtpreis=berechne(qm,qmPreis);
+	gesamtPreis=berechne(qm,qmPreis);
 	
 	printf("Gesamtpreis: %i Euro",gesamtPreis);
 	
