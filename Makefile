@@ -1,13 +1,11 @@
-NAME = x
+default: main
 
-default: $(NAME)
-
-$(NAME): $(NAME).o
-	gcc $(NAME).o -o $(NAME)
+main: main.o
+	gcc main.o -o main
 	
-$(NAME).o: $(NAME).c
-	gcc -c $(NAME).c -o $(NAME).o
-
+main.o: main.c berechne.c berechne.h
+	gcc main.c berechne.c -o berechne.o
+	
 clean:
-	-rm -f $(NAME).o
-	-rm -f $(NAME)
+	-rm -f main
+	-rm -f main.o
