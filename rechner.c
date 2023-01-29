@@ -8,7 +8,7 @@ int main () {
 	
 	gesamtPreis=berechne(qm,qmPreis);
 	
-	printf("Gesamtpreis: %i Euro",gesamtPreis);
+	printf("\nGesamtpreis: %i Euro\n",gesamtPreis);
 	
 	return 0;
 }
